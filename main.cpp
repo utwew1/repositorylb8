@@ -5,10 +5,12 @@ void input(int*, int*);
 int main()
 {
     setlocale(LC_ALL, "rus");
-    int num1, nim2;
+    int num1, num2;
 
     input(&num1, &num2);
-    cout <<"числа"<< num1 << "; " <<num2 << end1;
+    cin >> num1 >> num2;
+    cout << "числа" << num1 << "; " << num2;
+    cout << "Сумма чисел" <<num1 + num2 << num1 + num2;
 
     return 0;
 }
